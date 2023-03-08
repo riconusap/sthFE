@@ -199,6 +199,14 @@ h6,
 .hero-img {
     aspect-ratio: 3/2;
     object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 5px 5px;
 }
 
 
@@ -592,4 +600,12 @@ h6,
 .client-item:hover h5,
 .client-item:hover p {
     color: var(--light);
+}
+
+/*** proyek ***/
+.proyek-item {
+    position: relative;
+    background: #ffffff00;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
 }
